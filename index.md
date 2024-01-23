@@ -6,7 +6,7 @@ layout: home
 title: Describe Documentation
 exclude: true
 ---
-### [User guide](/user-guide/)
-### [Technical manual](/technical/)
-### [Versioning](/versioning/)
-### [About](/about/)
+### [User guide](/DescribeDocumentation/user-guide/)
+### [Technical manual](/DescribeDocumentation/technical/)
+### [Versioning](/DescribeDocumentation/versioning/)
+### [About](/DescribeDocumentation/about/)
