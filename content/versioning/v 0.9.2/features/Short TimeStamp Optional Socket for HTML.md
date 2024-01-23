@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Short TimeStamp Optional Socket for HTML
-permalink: /v092/features/feature-12
+permalink: /DescribeDocumentation/v092/features/feature-12
 exclude: true
 ---
 _FEATURE: Short TimeStamp Optional Socket for HTML Translator_

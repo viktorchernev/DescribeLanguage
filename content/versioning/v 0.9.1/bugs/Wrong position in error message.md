@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Wrong position in error message
-permalink: /v091/bugs/bug-3
+permalink: /DescribeDocumentation/v091/bugs/bug-3
 exclude: true
 ---
 _BUG: Wrong position in error message_

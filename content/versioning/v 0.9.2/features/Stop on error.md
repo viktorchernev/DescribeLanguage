@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Stop on error
-permalink: /v092/features/feature-13
+permalink: /DescribeDocumentation/v092/features/feature-13
 exclude: true
 ---
 _FEATURE: Stop on error_

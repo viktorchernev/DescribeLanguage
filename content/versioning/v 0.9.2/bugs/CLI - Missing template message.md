@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CLI - Missing template message
-permalink: /v092/bugs/bug-2
+permalink: /DescribeDocumentation/v092/bugs/bug-2
 exclude: true
 ---
 _BUG: Missing template message_

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Add ParseMultiString
-permalink: /v094/features/feature-2
+permalink: /DescribeDocumentation/v094/features/feature-2
 exclude: true
 ---
 _FEATURE: Add ParseMultiString_

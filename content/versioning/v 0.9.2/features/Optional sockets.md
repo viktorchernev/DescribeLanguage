@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Optional sockets
-permalink: /v092/features/feature-14
+permalink: /DescribeDocumentation/v092/features/feature-14
 exclude: true
 ---
 _FEATURE: Optional sockets_

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Artifacts argument
-permalink: /v092/features/feature-1
+permalink: /DescribeDocumentation/v092/features/feature-1
 exclude: true
 ---
 _FEATURE: Artifacts_

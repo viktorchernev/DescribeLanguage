@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Warnings
-permalink: /v094/warnings/
+permalink: /DescribeDocumentation/v094/warnings/
 exclude: true
 ---
 _Warnings to keep in mind in Describe Compiler v0.9.4_

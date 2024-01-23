@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Custom translator
-permalink: /v09/features/feature-8
+permalink: /DescribeDocumentation/v09/features/feature-8
 exclude: true
 ---
 _FEATURE: Custom Translator_

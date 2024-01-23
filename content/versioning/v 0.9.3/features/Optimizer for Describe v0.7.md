@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Optimizer for Describe v0.7
-permalink: /v093/features/feature-3
+permalink: /DescribeDocumentation/v093/features/feature-3
 exclude: true
 ---
 _FEATURE: Optimizer for Describe v0.7_

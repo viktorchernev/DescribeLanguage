@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Decorators on titles
-permalink: /v091/features/feature-5
+permalink: /DescribeDocumentation/v091/features/feature-5
 exclude: true
 ---
 _FEATURE: Decorators on titles_

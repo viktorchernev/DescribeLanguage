@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Last item comment Runaway group
-permalink: /v09/bugs/bug-5
+permalink: /DescribeDocumentation/v09/bugs/bug-5
 exclude: true
 ---
 _BUG: Last item comment Runaway group_

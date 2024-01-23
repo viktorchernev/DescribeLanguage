@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CLI - Implement template command
-permalink: /v091/features/feature-1
+permalink: /DescribeDocumentation/v091/features/feature-1
 exclude: true
 ---
 _FEATURE: CLI - Implement template command_

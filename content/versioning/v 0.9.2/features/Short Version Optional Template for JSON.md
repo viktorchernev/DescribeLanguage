@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Short Version Optional Template for JSON
-permalink: /v092/features/feature-9
+permalink: /DescribeDocumentation/v092/features/feature-9
 exclude: true
 ---
 _FEATURE: Short Version Optional Template for JSON Translator_

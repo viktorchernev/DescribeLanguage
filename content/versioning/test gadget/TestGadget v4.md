@@ -1,7 +1,7 @@
 ---
 layout: page
 title: TestGadget v4 (GTK)
-permalink: /test-gadget/test-gadget-v4
+permalink: /DescribeDocumentation/test-gadget/test-gadget-v4
 exclude: true
 ---
 ```

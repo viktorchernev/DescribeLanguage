@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Text Link Text
-permalink: /v093/quirks/quirk-1
+permalink: /DescribeDocumentation/v093/quirks/quirk-1
 exclude: true
 ---
 _QUIRK: Text Link Text_

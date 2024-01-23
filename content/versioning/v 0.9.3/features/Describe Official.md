@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Describe Official
-permalink: /v093/features/feature-1
+permalink: /DescribeDocumentation/v093/features/feature-1
 exclude: true
 ---
 _Feature: Implement Describe v 1.0 (Official)_

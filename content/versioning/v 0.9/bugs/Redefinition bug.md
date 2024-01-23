@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Redefinition bug
-permalink: /v09/bugs/bug-7
+permalink: /DescribeDocumentation/v09/bugs/bug-7
 exclude: true
 ---
 _BUG: Redefinition bug_

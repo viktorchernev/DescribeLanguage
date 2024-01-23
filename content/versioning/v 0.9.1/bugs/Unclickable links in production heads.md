@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Unclickable links in production heads
-permalink: /v091/bugs/bug-4
+permalink: /DescribeDocumentation/v091/bugs/bug-4
 exclude: true
 ---
 _BUG: Unclickable links in production heads_

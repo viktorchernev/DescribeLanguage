@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NLComment decorator
-permalink: /v092/features/feature-6
+permalink: /DescribeDocumentation/v092/features/feature-6
 exclude: true
 ---
 _FEATURE: NLComment decorator_

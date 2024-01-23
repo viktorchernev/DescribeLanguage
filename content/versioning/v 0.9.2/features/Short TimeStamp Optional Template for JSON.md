@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Short TimeStamp Optional Template for JSON
-permalink: /v092/features/feature-10
+permalink: /DescribeDocumentation/v092/features/feature-10
 exclude: true
 ---
 _FEATURE: Short TimeStamp Optional Template for JSON Translator_

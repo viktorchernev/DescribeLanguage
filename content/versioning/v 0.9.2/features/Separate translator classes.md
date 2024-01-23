@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Separate translator classes
-permalink: /v092/features/feature-8
+permalink: /DescribeDocumentation/v092/features/feature-8
 exclude: true
 ---
 _CHANGE: Separate translator classes_

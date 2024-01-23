@@ -1,7 +1,7 @@
 ---
 layout: page
 title: EscapeEscape does not show
-permalink: /v09/bugs/bug-4
+permalink: /DescribeDocumentation/v09/bugs/bug-4
 exclude: true
 ---
 _BUG: EscapeEscape does not show_

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Add ParseString
-permalink: /v094/features/feature-3
+permalink: /DescribeDocumentation/v094/features/feature-3
 exclude: true
 ---
 _FEATURE: Add ParseString_

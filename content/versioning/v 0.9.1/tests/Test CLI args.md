@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Test CLI args
-permalink: /v091/tests/test-1
+permalink: /DescribeDocumentation/v091/tests/test-1
 exclude: true
 ---
 _TEST: Test CLI args_

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: TestGadget v3
-permalink: /test-gadget/test-gadget-v3
+permalink: /DescribeDocumentation/test-gadget/test-gadget-v3
 exclude: true
 ---
 ```

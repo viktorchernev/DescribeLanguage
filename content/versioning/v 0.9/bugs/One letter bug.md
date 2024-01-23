@@ -1,7 +1,7 @@
 ---
 layout: page
 title: One letter bug
-permalink: /v09/bugs/bug-6
+permalink: /DescribeDocumentation/v09/bugs/bug-6
 exclude: true
 ---
 _BUG: One letter bug_

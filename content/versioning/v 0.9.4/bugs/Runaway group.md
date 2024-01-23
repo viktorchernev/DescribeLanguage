@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Runaway group
-permalink: /v094/bugs/todo-bug-2
+permalink: /DescribeDocumentation/v094/bugs/todo-bug-2
 exclude: true
 ---
 _BUG: Runaway group_

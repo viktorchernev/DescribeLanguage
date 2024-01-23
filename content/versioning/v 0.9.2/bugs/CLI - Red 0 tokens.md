@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CLI - Red 0 tokens
-permalink: /v092/bugs/bug-1
+permalink: /DescribeDocumentation/v092/bugs/bug-1
 exclude: true
 ---
 _BUG: Red 0 tokens_

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: User guide
-permalink: /user-guide/
+permalink: /DescribeDocumentation/user-guide/
 ---
 
 Nothing yet...

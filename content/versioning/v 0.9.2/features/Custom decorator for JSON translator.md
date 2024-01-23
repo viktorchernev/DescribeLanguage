@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Custom decorator for JSON translator
-permalink: /v092/features/feature-5
+permalink: /DescribeDocumentation/v092/features/feature-5
 exclude: true
 ---
 _FEATURE: Custom decorator for JSON translator_

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DescribeCompiler.AWS
-permalink: /v094/features/feature-1
+permalink: /DescribeDocumentation/v094/features/feature-1
 exclude: true
 ---
 _FEATURE: DescribeCompiler.AWS_

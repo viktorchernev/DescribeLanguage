@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Remove external templating
-permalink: /v093/features/feature-5
+permalink: /DescribeDocumentation/v093/features/feature-5
 exclude: true
 ---
 _FEATURE: Remove external templating functionality_
