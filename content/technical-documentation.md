@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Technical
+title: Technical NEXT
 permalink: /DescribeDocumentations/technical/
 ---
 The Describe Compiler Consists of few different projects that are related to one another.
