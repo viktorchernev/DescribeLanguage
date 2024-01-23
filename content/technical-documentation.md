@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Technical
-permalink: /DescribeDocumentation/technical/
+permalink: DescribeDocumentations/technical/
 ---
 The Describe Compiler Consists of few different projects that are related to one another.
 
