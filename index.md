@@ -6,6 +6,9 @@ layout: home
 title: Describe Documentation
 exclude: true
 ---
+_We are currently pulling data from the gitbook version of the documentation_
+[app.gitbook.com](https://app.gitbook.com/o/tRJ7nqSnGukR7zG2JCEI/s/7Qrn3glzGK3XEX4Ubhun/)
+
 ### [User guide](/DescribeDocumentation/user-guide/)
 ### [Technical manual](/DescribeDocumentation/technical/)
 ### [Versioning](/DescribeDocumentation/versioning/)
