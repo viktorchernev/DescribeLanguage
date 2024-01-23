@@ -1,7 +1,7 @@
 ---
 layout: page
 title: API Refactoring
-permalink: /DescribeDocumentation/v093/features/feature-6
+permalink: /v093/features/feature-6
 exclude: true
 ---
 _FEATURE: Refactoring_

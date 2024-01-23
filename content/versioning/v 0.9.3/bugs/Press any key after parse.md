@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Press any key after parse
-permalink: /DescribeDocumentation/v093/bugs/bug-2
+permalink: /v093/bugs/bug-2
 exclude: true
 ---
 _BUG: Press any key after parse_

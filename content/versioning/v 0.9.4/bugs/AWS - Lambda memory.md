@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AWS - Lambda memory
-permalink: /DescribeDocumentation/v094/bugs/todo-bug-1
+permalink: /v094/bugs/todo-bug-1
 exclude: true
 ---
 _BUG: AWS - Lambda memory_

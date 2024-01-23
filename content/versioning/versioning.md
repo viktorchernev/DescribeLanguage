@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Versioning
-permalink: /DescribeDocumentation/versioning/
+permalink: /versioning/
 ---
 
 The Describe Compiler project uses semantic versioning. The Describe compiler is currently in a version 0.9 which is an open beta. 

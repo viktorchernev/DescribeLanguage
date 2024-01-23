@@ -1,7 +1,7 @@
 ---
 layout: page
 title: change-log
-permalink: /DescribeDocumentation/v093/change-log
+permalink: /v093/change-log
 exclude: true
 ---
 _change-log for v0.9.3_

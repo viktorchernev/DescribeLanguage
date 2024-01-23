@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Comment item decorator
-permalink: /DescribeDocumentation/v09/features/feature-4
+permalink: /v09/features/feature-4
 exclude: true
 ---
 _FEATURE: Comment item decorator_

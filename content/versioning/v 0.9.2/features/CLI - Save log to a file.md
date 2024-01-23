@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CLI - Save log to a file
-permalink: /DescribeDocumentation/v092/features/feature-2
+permalink: /v092/features/feature-2
 exclude: true
 ---
 _FEATURE: CLI - Save log to a file_

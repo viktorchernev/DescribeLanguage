@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Implement ext command
-permalink: /DescribeDocumentation/v091/features/feature-2
+permalink: /v091/features/feature-2
 exclude: true
 ---
 _FEATURE: Implement ext command_

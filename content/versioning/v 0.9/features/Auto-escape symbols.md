@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Auto-escape symbols
-permalink: /DescribeDocumentation/v09/features/feature-3
+permalink: /v09/features/feature-3
 exclude: true
 ---
 _FEATURE: Auto-escape symbols_

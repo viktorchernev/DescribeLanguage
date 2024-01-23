@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links in the HTML
-permalink: /DescribeDocumentation/v09/features/feature-2
+permalink: /v09/features/feature-2
 exclude: true
 ---
 _FEATURE: Add code to have links in the HTML_

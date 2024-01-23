@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CLI CORE - Cannot read console keys
-permalink: /DescribeDocumentation/v094/bugs/bug-1
+permalink: /v094/bugs/bug-1
 exclude: true
 ---
 _BUG: CLI CORE - Cannot read console keys_

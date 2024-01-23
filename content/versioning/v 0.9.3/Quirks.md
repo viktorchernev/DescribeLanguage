@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Quirks
-permalink: /DescribeDocumentation/v093/quirks/
+permalink: /v093/quirks/
 exclude: true
 ---
 _Quirks fixed in Describe Compiler v0.9.3_

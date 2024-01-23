@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CLI - Invalid Output Argument
-permalink: /DescribeDocumentation/v091/bugs/bug-1
+permalink: /v091/bugs/bug-1
 exclude: true
 ---
 _BUG: CLI - Invalid Output Argument_

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CLI - Console color on exit
-permalink: /DescribeDocumentation/v093/bugs/bug-1
+permalink: /v093/bugs/bug-1
 exclude: true
 ---
 _BUG: Console color on exit_

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tests
-permalink: /DescribeDocumentation/v091/tests/
+permalink: /v091/tests/
 exclude: true
 ---
 _Tests ran against Describe Compiler v0.9.1_

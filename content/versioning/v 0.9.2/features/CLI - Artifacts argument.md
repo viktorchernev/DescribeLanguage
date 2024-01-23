@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CLI - Artifacts argument
-permalink: /DescribeDocumentation/v092/features/feature-4
+permalink: /v092/features/feature-4
 exclude: true
 ---
 _FEATURE: Artifacts_

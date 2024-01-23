@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Consecutive closing semicolons
-permalink: /DescribeDocumentation/v09/bugs/bug-1
+permalink: /v09/bugs/bug-1
 exclude: true
 ---
 _BUG: Consecutive Closing semicolons_

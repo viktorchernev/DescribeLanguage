@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CLI - Stop on error
-permalink: /DescribeDocumentation/v092/features/feature-3
+permalink: /v092/features/feature-3
 exclude: true
 ---
 _FEATURE: Stop on error_

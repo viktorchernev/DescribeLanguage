@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Single digits in timestamp
-permalink: /DescribeDocumentation/v092/bugs/bug-4
+permalink: /v092/bugs/bug-4
 exclude: true
 ---
 _BUG: Single digits in timestamp_

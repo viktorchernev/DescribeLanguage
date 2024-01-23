@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Same id
-permalink: /DescribeDocumentation/v092/bugs/bug-3
+permalink: /v092/bugs/bug-3
 exclude: true
 ---
 _BUG: Same id_

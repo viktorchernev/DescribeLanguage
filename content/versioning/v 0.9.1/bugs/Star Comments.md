@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Star Comments
-permalink: /DescribeDocumentation/v091/bugs/bug-2
+permalink: /v091/bugs/bug-2
 exclude: true
 ---
 _BUG: Star Comments_

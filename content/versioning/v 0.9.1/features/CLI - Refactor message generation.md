@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CLI - Refactor message generation
-permalink: /DescribeDocumentation/v091/features/feature-3
+permalink: /v091/features/feature-3
 exclude: true
 ---
 _FEATURE: Refactor message generation_

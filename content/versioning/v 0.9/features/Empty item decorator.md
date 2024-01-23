@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Empty item decorator
-permalink: /DescribeDocumentation/v09/features/feature-5
+permalink: /v09/features/feature-5
 exclude: true
 ---
 _FEATURE: Empty item decorator_

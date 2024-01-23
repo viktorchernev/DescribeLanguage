@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CLI - Refactor CLI argument handling
-permalink: /DescribeDocumentation/v091/features/feature-4
+permalink: /v091/features/feature-4
 exclude: true
 ---
 _FEATURE: Refactor CLI argument handling_

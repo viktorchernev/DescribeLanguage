@@ -1,7 +1,7 @@
 ---
 layout: page
 title: TestGadget v6.1 (WinForms, Gold parser)
-permalink: /DescribeDocumentation/test-gadget/test-gadget-v61
+permalink: /test-gadget/test-gadget-v61
 exclude: true
 ---
 ```

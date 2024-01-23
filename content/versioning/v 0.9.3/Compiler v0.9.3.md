@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Compiler v0.9.3
-permalink: /DescribeDocumentation/v093/compiler093/
+permalink: /v093/compiler093/
 exclude: true
 ---
 _Bug fixes and features added in Describe Compiler v0.9.3_

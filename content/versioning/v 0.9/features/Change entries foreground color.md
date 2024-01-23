@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Change entries foreground color
-permalink: /DescribeDocumentation/v09/features/feature-1
+permalink: /v09/features/feature-1
 exclude: true
 ---
 _FEATURE: Add the functionality to change entries foreground color_

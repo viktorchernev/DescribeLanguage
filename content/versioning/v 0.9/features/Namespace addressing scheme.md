@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Namespace addressing scheme
-permalink: /DescribeDocumentation/v09/features/feature-7
+permalink: /v09/features/feature-7
 exclude: true
 ---
 _FEATURE: Namespace addressing scheme_

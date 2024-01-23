@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Features
-permalink: /DescribeDocumentation/v094/features/
+permalink: /v094/features/
 exclude: true
 ---
 _Features implemented in Describe Compiler v0.9.4_

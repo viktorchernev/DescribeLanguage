@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Empty production null reference
-permalink: /DescribeDocumentation/v09/bugs/bug-3
+permalink: /v09/bugs/bug-3
 exclude: true
 ---
 _BUG: Empty production null reference_

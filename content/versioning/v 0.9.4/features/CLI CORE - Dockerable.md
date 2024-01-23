@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CLI CORE - Dockerable
-permalink: /DescribeDocumentation/v094/features/feature-5
+permalink: /v094/features/feature-5
 exclude: true
 ---
 _CLI CORE - Dockerable_

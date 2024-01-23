@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bugs
-permalink: /DescribeDocumentation/v092/bugs/
+permalink: /v092/bugs/
 exclude: true
 ---
 _Bugs fixed in Describe Compiler v0.9.2_

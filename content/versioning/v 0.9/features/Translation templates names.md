@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Translation templates names
-permalink: /DescribeDocumentation/v09/features/feature-6
+permalink: /v09/features/feature-6
 exclude: true
 ---
 _FEATURE: Translation templates names_

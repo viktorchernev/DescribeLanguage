@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cyrillic or special character
-permalink: /DescribeDocumentation/v09/bugs/bug-2
+permalink: /v09/bugs/bug-2
 exclude: true
 ---
 _BUG: Cyrillic or special character_

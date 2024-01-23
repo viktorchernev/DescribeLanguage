@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CLI CORE - Operation not supported
-permalink: /DescribeDocumentation/v094/bugs/bug-2
+permalink: /v094/bugs/bug-2
 exclude: true
 ---
 _BUG: CLI CORE - Operation not supported_

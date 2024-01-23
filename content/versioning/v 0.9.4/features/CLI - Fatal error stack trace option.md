@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CLI - Fatal error stack trace option
-permalink: /DescribeDocumentation/v094/features/feature-4
+permalink: /v094/features/feature-4
 exclude: true
 ---
 _FEATURE: Fatal error stack trace option_

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Custom decorators produce bad JSON
-permalink: /DescribeDocumentation/v093/bugs/bug-3
+permalink: /v093/bugs/bug-3
 exclude: true
 ---
 _BUG: Custom decorators produce bad JSON_
