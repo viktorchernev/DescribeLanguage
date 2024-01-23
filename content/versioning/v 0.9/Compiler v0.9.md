@@ -14,6 +14,7 @@ _Bug fixes and features added in Describe Compiler v0.9_
 * [Empty item decorator](/v09/features/feature-5)
 * [Translation templates names](/v09/features/feature-6)
 * [Namespace addressing scheme](/v09/features/feature-7)
+* [Custom translator](/v09/features/feature-8)
 
 ## Bugs:
 * [Consecutive closing semicolons](/v09/bugs/bug-1)
