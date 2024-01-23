@@ -22,8 +22,8 @@ title: Describe Documentation
 email: vchernev91@abv.bg
 description: >- # this means to ignore newlines until "baseurl:"
   Describe Compiler Documentation
-baseurl: "DescribeDocumentation" # the subpath of your site, e.g. /DescribeDocumentation
-url: "https://viktorchernev.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /DescribeDocumentation
+url: "https://viktorchernev.github.io/DescribeDocumentation/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  viktorchernev
 
 # Build settings
