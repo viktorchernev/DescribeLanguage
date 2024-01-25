@@ -25,7 +25,7 @@ _Bug fixes and features added in Describe Compiler v0.9.3_
 ## Tests:
 * [Test CLI args](/DescribeDocumentation/v093/tests/test-1)
 
-## Links
+## Links:
 * [change-log](/DescribeDocumentation/v093/change-log)
 * [Features](/DescribeDocumentation/v093/features/)
 * [Bugs](/DescribeDocumentation/v093/bugs/)

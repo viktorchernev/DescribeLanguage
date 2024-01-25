@@ -25,7 +25,7 @@ _Bug fixes and features added in Describe Compiler v0.9_
 * [One letter bug](/DescribeDocumentation/v09/bugs/bug-6)
 * [Redefinition bug](/DescribeDocumentation/v09/bugs/bug-7)
 
-## Links
+## Links:
 * [Features](/DescribeDocumentation/v09/features/)
 * [Bugs](/DescribeDocumentation/v09/bugs/)
 * [Compiler v0.9.1](/DescribeDocumentation/v091/compiler091)
