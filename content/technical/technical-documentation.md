@@ -3,7 +3,7 @@ layout: page
 title: Technical
 permalink: /technical/
 ---
-The Describe Compiler is written in C# and consists of few different projects that are related to one another.
+The Describe Compiler is written in C# and consists of few different projects that are related to one another. Below is a list of those projects.
 
 #### Gold Parser Engine
 The [Gold Parser Engine](/DescribeDocumentation/gold-parser) is the parser that powers the Describe Compiler. It is a .Net dll library that targets .Net Standard 2.0.
@@ -16,6 +16,9 @@ The Describe Compiler CLI is the command line version of the compiler. It is a .
 
 #### Describe Compiler AWS
 The [Describe Compiler AWS](/DescribeDocumentation/aws-lambda) is Amazon Web Services Lambda function project. It is built for hosting the Describe Compiler as a microservice, in the form of a lambda function.
+
+#### World of lists Tools
+The **World of lists Tools** is a toolbox for administration and manipulation of the databases of the worldinlists.net website. It is more of a hackjob of different codes and a sandbox for different ideas. It is command line based. However, as worldinlists.net is currently a proprietary software, this project is not publically available for the moment.
 
 ## Links
 * [Describe Compiler API](/DescribeDocumentation/api)
