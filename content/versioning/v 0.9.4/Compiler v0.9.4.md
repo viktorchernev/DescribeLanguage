@@ -24,7 +24,7 @@ _Bug fixes and features added in Describe Compiler v0.9.4_
 ## Warnings:
 * [warnings](/DescribeDocumentation/v094/warnings/)
 
-## Links
+## Links:
 * [Features](/DescribeDocumentation/v094/features/)
 * [Bugs](/DescribeDocumentation/v094/bugs/)
 * [Tests](/DescribeDocumentation/v094/tests/)
