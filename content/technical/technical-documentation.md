@@ -12,7 +12,7 @@ The [Gold Parser Engine](/DescribeDocumentation/technical/gold-parser-engine) is
 The [Describe Compiler API](/DescribeDocumentation/technical/api) is the defacto compiler. It is a .Net dll library that targets .Net Standard 2.0. All the other projects are some kind of fronts for the Describe Compiler API.
 
 #### Describe Compiler CLI
-The Describe Compiler CLI is the command line version of the compiler. It is a .Net console application that acts as a wrapper around the dll library and provides a command line interface for the compiler. There are two versions of the Describe Compiler CLI, represented by two different projects - the [Describe Compiler CLI - Core](/DescribeDocumentation/technical/cli-core) and the [Describe Compiler CLI - Framework](/DescribeDocumentation/technical/cli-framework), that target .Net Core and .Net Framework, respectively. Both apps should be more or less identical, but the Core App is the official one, which means tat it gets new features implemented first. The Framework App project is kept just in case that anyone anyone would need a .Net Framework implementation to work on.
+The Describe Compiler CLI is the command line version of the compiler. It is a .Net console application that acts as a wrapper around the dll library and provides a command line interface for the compiler. There are two versions of the Describe Compiler CLI, represented by two different projects - the [Describe Compiler CLI - Core](/DescribeDocumentation/technical/cli) and the [Describe Compiler CLI - Framework](/DescribeDocumentation/technical/cli), that target .Net Core and .Net Framework, respectively. Both apps should be more or less identical, but the Core App is the official one, which means tat it gets new features implemented first. The Framework App project is kept just in case that anyone anyone would need a .Net Framework implementation to work on.
 
 #### Describe Compiler AWS
 The [Describe Compiler AWS](/DescribeDocumentation/technical/aws-lambda) is Amazon Web Services Lambda function project. It is built for hosting the Describe Compiler as a microservice, in the form of a lambda function.
@@ -22,7 +22,6 @@ The **World of lists Tools** is a toolbox for administration and manipulation of
 
 ## Links
 * [Describe Compiler API](/DescribeDocumentation/technical/api)
-* [Describe Compiler CLI - Core](/DescribeDocumentation/technical/cli-core)
-* [Describe Compiler CLI - Framework](/DescribeDocumentation/technical/cli-framework)
+* [Describe Compiler CLI](/DescribeDocumentation/technical/cli)
 * [Describe Compiler AWS](/DescribeDocumentation/technical/aws-lambda)
 * [Gold Parser Engine](/DescribeDocumentation/technical/gold-parser-engine)
