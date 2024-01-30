@@ -9,6 +9,7 @@ The Describe Compiler CLI is the command line version of the Describe compiler. 
 The CLI app is relatively small in terms of codebase and relatively simple and straight forward in terms of architecture.
 There are 5 distinct modules - Program, Main, Arguments, Messages and Datnik.
 
+## Modules
 C# console applications contain a class called ```Program``` that contains ```static void Main``` method. This is the entry point. This is ```Program.cs```. The Messages module - ```FunctionsMessages.cs``` contains methods for setting and changing console propperties and colors and outputting messages, like the help message and the app baner. The Main module - ```FunctionsMain.cs``` contains the main functionality of the app. The Arguments module - ```FunctionsArguments.cs``` contains the methods that are used to read the command line arguments. The Datnik structure - ```Datnik.cs``` is populated with all the data for the current command that is to be executed.
 
 
