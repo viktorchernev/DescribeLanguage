@@ -28,4 +28,15 @@ exclude: true
 
 <span style="color:blue">```printLogo3Bicolor(ConsoleColor colorA, ConsoleColor colorB)```</span><br>Output the ASCII art logo with 2 dashes for shadow to the console, in 2 alternating colors.
 
-<span style="color:blue">```printLogo3Bicolor()```</span><br>Output the ASCII art logo with 2 dashes for shadow to the console, in 2 alternating colors, using the default color for text and the default color for info
+<span style="color:blue">```printLogo3Bicolor()```</span><br>Output the ASCII art logo with 2 dashes for shadow to the console, in 2 alternating colors, using the default color for text and the default color for info.
+
+### Themes
+<span style="color:blue">```SetDefaultTheme()```</span><br>Set default color theme.
+
+<span style="color:blue">```SetVioletTheme()```</span><br>Set white/violet color theme.
+
+<span style="color:blue">```SetCyanTheme()```</span><br>Set cyan/violet color theme.
+
+<span style="color:blue">```SetLightBlueTheme()```</span><br>Set light blue/white color theme.
+
+<span style="color:blue">```SetDarkBlueTheme()```</span><br>Set dark blue/dark gray color theme.
