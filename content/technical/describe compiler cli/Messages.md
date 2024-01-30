@@ -50,7 +50,7 @@ exclude: true
 
 <span style="color:blue">```printHelpMessage()```</span><br>Output the help message/usage data.
 
-<span style="color:blue">_All the error messages below show "Press any key to exit" message and wait for user input._</span>
+<span style="color:green">_All the error messages below show "Press any key to exit" message and wait for user input._</span>
 
 <span style="color:blue">```printNoArgumentsError()```</span><br>Output error message saying "No arguments or invalid argument count" and shows usage data.
 
@@ -59,3 +59,16 @@ exclude: true
 <span style="color:blue">```printArgumentError(string arg, int argIndex, string message)```</span><br>Output error message saying "Invalid argument - "" - " and shows usage data.
 
 <span style="color:blue">```printFatalError(string message)```</span><br>Output error message saying that a fatal error has occured.
+
+### Logging
+<span style="color:blue">```internal static string Log { get; private set; }```</span><br>Accumulate the full log here.
+
+<span style="color:green">_Log```</span><br>methods listed below are passed to the parser as log event handlers and are called possibly many times during the parsing process, depending on the log verbosity level the parser is set to._</span>
+
+<span style="color:blue">```ConsoleLog(string text)```</span><br>Output text to the console.
+
+<span style="color:blue">```ConsoleLogInfo(string text)```</span><br>Output text with specific color (and possibly prefixes/suffixes) to the console.
+
+<span style="color:blue">```ConsoleLogError(string text)```</span><br>Output text with specific color (and possibly prefixes/suffixes) to the console.
+
+<span style="color:blue">```ConsoleLogParseInfo(string text)```</span><br>Output text with specific color (and possibly prefixes/suffixes) to the console.
