@@ -63,7 +63,7 @@ exclude: true
 ### Logging
 <span style="color:blue">```internal static string Log { get; private set; }```</span><br>Accumulate the full log here.
 
-<span style="color:green">_Log```</span><br>methods listed below are passed to the parser as log event handlers and are called possibly many times during the parsing process, depending on the log verbosity level the parser is set to._</span>
+<span style="color:green">_Log methods listed below are passed to the parser as log event handlers and are called possibly many times during the parsing process, depending on the log verbosity level the parser is set to._</span>
 
 <span style="color:blue">```ConsoleLog(string text)```</span><br>Output text to the console.
 
