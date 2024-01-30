@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Describe Compiler CLI - Core
+title: Describe Compiler CLI
 permalink: /technical/cli/
 exclude: true
 ---
