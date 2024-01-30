@@ -5,7 +5,7 @@ permalink: /technical/cli/messages/
 exclude: true
 ---
 ### Options
-<span style="color:blue">```static bool ONE_BASED_ARG_INDEX```</span><br>Wether we are using one based index for error reporting. For example, if there is an error in the first cmd argument, if ONE_BASED_ARG_INDEX is true, we will get something like "Error at argument 1". Otherwise we will get "Error at argument 0".
+<span style="color:blue">```static bool ONE_BASED_ARG_INDEX```</span><br>Wether we are using one based index for error reporting. For example, if there is an error in the first cmd argument, if ```ONE_BASED_ARG_INDEX``` is ```true```, we will get something like ```Error at argument 1```. Otherwise we will get ```Error at argument 0```.
 
 <span style="color:blue">```static ConsoleColor INFO_COLOR```</span><br>The color used for informational text forecolor.
 
@@ -40,3 +40,22 @@ exclude: true
 <span style="color:blue">```SetLightBlueTheme()```</span><br>Set light blue/white color theme.
 
 <span style="color:blue">```SetDarkBlueTheme()```</span><br>Set dark blue/dark gray color theme.
+
+### Errors
+<span style="color:blue">```printWarning(string message)```</span><br>Output a warning message.
+
+<span style="color:blue">```printExtTemplatesSuccess()```</span><br>Output message saying that ext command was successfully completed.
+
+<span style="color:blue">```printCompilationSuccess()```</span><br>Output message saying that compilation was successfully completed.
+
+<span style="color:blue">```printHelpMessage()```</span><br>Output the help message/usage data.
+
+<span style="color:blue">_All the error messages below show "Press any key to exit" message and wait for user input._</span>
+
+<span style="color:blue">```printNoArgumentsError()```</span><br>Output error message saying "No arguments or invalid argument count" and shows usage data.
+
+<span style="color:blue">```printArgumentError(string arg, int argIndex)```</span><br>Output error message saying "Invalid argument - """ and shows usage data.
+
+<span style="color:blue">```printArgumentError(string arg, int argIndex, string message)```</span><br>Output error message saying "Invalid argument - "" - " and shows usage data.
+
+<span style="color:blue">```printFatalError(string message)```</span><br>Output error message saying that a fatal error has occured.
