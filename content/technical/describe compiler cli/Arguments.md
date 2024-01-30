@@ -6,10 +6,10 @@ exclude: true
 ---
 ### IO
 <span style="color:blue">```internal static bool readInputArgument(string arg, int argindex)```</span><br>
-Read input file or folder
-<span style="color:orange">arg</span> - The argument raw text
-<span style="color:orange">argindex</span> - The index of the argument (for logging purposes)
-<span style="color:orange">returns</span> - True if successful
+Read input file or folder<br>
+<span style="color:orange">arg</span> - The argument raw text<br>
+<span style="color:orange">argindex</span> - The index of the argument (for logging purposes)<br>
+<span style="color:orange">returns</span> - True if successful<br>
 
 <span style="color:blue">```internal static bool readInputFileArgument(string arg, int argindex)```</span><br>
 Read input file
