@@ -4,7 +4,7 @@ title: Describe Compiler CLI - Messages
 permalink: /technical/cli/messages/
 exclude: true
 ---
-#### Options
+### Options
 <span style="color:blue">static bool ONE_BASED_ARG_INDEX</span> - Wether we are using one based index for error reporting. For example, if there is an error in the first cmd argument, if ONE_BASED_ARG_INDEX is true, we will get something like "Error at argument 1". Otherwise we will get "Error at argument 0".
 
 <span style="color:blue">static ConsoleColor INFO_COLOR</span> - The color used for informational text forecolor.
@@ -15,7 +15,7 @@ exclude: true
 
 <span style="color:blue">static ConsoleColor MOREINFO_COLOR</span> - The color used for less important informational text forecolor.
 
-#### Presetting
+### Presetting
 <span style="color:blue">presetConsole()</span> - Set console dimensions and colors.
 
 <span style="color:blue">printLogo3(ConsoleColor logoColor)</span> - Output the ASCII art logo with 3 dashes for shadow to the console.
