@@ -14,3 +14,18 @@ exclude: true
 <span style="color:blue">static ConsoleColor ERROR_COLOR</span> - The color used for error text forecolor.
 
 <span style="color:blue">static ConsoleColor MOREINFO_COLOR</span> - The color used for less important informational text forecolor.
+
+#### Presetting
+<span style="color:blue">presetConsole()</span> - Set console dimensions and colors.
+
+<span style="color:blue">printLogo3(ConsoleColor logoColor)</span> - Output the ASCII art logo with 3 dashes for shadow to the console.
+
+<span style="color:blue">printLogo3()</span> - Output the ASCII art logo with 3 dashes for shadow to the console, using the default color for text.
+
+<span style="color:blue">printLogo2(ConsoleColor logoColor)</span> - Output the ASCII art logo with 2 dashes for shadow to the console.
+
+<span style="color:blue">printLogo2()</span> - Output the ASCII art logo with 2 dashes for shadow to the console, using the default color for text.
+
+<span style="color:blue">printLogo3Bicolor(ConsoleColor colorA, ConsoleColor colorB)</span> - Output the ASCII art logo with 2 dashes for shadow to the console, in 2 alternating colors.
+
+<span style="color:blue">printLogo3Bicolor()</span> - Output the ASCII art logo with 2 dashes for shadow to the console, in 2 alternating colors, using the default color for text and the default color for info
