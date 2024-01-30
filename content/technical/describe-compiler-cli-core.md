@@ -10,9 +10,16 @@ The CLI app is relatively small in terms of codebase and relatively simple and s
 There are 5 distinct modules - Program, Main, Arguments, Messages and Datnik.
 
 ### [Program](/DescribeDocumentation/technical/cli-core/program)
-C# console applications contain a class called ```Program``` that contains ```static void Main``` method. This is the entry point. 
+C# console applications contain a class called ```Program``` that contains ```static void Main``` method. This is the entry point. This is ```Program.cs```
 
-### [Main]()
-### Datnik
 ### Messages
+The Messages module - ```FunctionsMessages.cs``` contains methods for setting and changing console propperties and colors and outputting messages, like the help message and the app baner.
+
+### [Main](/DescribeDocumentation/technical/cli-core/program)
+The Main module - ```FunctionsMain.cs``` contains the main functionality of the app.
+
 ### Arguments
+The Arguments module - ```FunctionsArguments.cs``` contains the methods that are used to read the command line arguments.
+
+### Datnik
+The Datnik structure - ```Datnik.cs``` is populated with all the data for the current command that is to be executed.
