@@ -15,8 +15,8 @@ permalink: /testing/
 
 ## Links
 
-* [Grammar v0.6](/testing/grammar-v06)
-* [Grammar v0.7](/testing/grammar-v07)
-* [Grammar v0.8](/testing/grammar-v08)
-* [Grammar v0.9](/testing/grammar-v09)
-* [Grammar v1.0](/testing/grammar-v10)
+* [Grammar v0.6](/DescribeDocumentation/testing/grammar-v06)
+* [Grammar v0.7](/DescribeDocumentation/testing/grammar-v07)
+* [Grammar v0.8](/DescribeDocumentation/testing/grammar-v08)
+* [Grammar v0.9](/DescribeDocumentation/testing/grammar-v09)
+* [Grammar v1.0](/DescribeDocumentation/testing/grammar-v10)
