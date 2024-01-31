@@ -6,7 +6,7 @@ exclude: true
 ---
 _Describe Tags (v0.7)_
 
-```_Grammar version 0.7 has to pass all the tests for Grammar version 0.6 before passing the following:_```
+<span style="font-style: italic;">```Grammar version 0.7 has to pass all the tests for Grammar version 0.6 before passing the following:```</span>
 
 
 <span style="color:green">basic functionality</span><br>
