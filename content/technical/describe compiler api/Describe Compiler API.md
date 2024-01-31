@@ -14,9 +14,9 @@ The Describe Compiler API is a software library, containing the de-facto compile
 ## Links
 
 * [Grammars](/DescribeDocumentation/technical/api/grammars)
-* [Compiler]()
-* [Preprocessors]()
-* [Optimizers]()
+* [Compiler](/DescribeDocumentation/technical/api/compiler)
+* [Preprocessors](/DescribeDocumentation/technical/api/preprocessors)
+* [Optimizers](/DescribeDocumentation/technical/api/optimizers)
 
 ## Translators
 ### HTML_PARACORD

@@ -12,3 +12,4 @@ _We are currently pulling data from the gitbook version of the documentation_
 ### [User guide](/DescribeDocumentation/user-guide/)
 ### [Versioning](/DescribeDocumentation/versioning/)
 ### [Technical manual](/DescribeDocumentation/technical/)
+### [Testing](/DescribeDocumentation/testing/)
