@@ -6,7 +6,7 @@ exclude: true
 ---
 _Describe Official (v1.0)_
 
-<span style="font-style: italic;">```Grammar version 1.1 has to pass all the tests for Grammar versions 0.6, 0.7, 0.8 and 0.9```</span><br>
+<span style="font-style: italic;">```Grammar version 1.0 has to pass all the tests for Grammar versions 0.6, 0.7, 0.8 and 0.9```</span><br>
 
 <span style="color:green">basic functionality</span><br>
 <span style="color:blue">```basic 1.ds```</span> - Some very simple list with inline commas and producers<br>
