@@ -6,11 +6,11 @@ exclude: true
 ---
 _Describe Basics (v0.6)_
 
-<span style="color:green">basic functionality<span>
-<span style="color:blue">```basic 1.ds```</span> - Some very simple list
-<span style="color:blue">```basic 2.ds```</span> - Some very simple list with 1 entry
-<span style="color:blue">```basic 3.ds```</span> - Some very simple list with 1 entry on the same line (in-lined production)
-<span style="color:blue">```basic 4.ds```</span>  - Some very simple list ending with a new line character
+<span style="color:green">basic functionality</span>
+<span style="color:blue">```basic 1.ds```</span> - Some very simple list<br>
+<span style="color:blue">```basic 2.ds```</span> - Some very simple list with 1 entry<br>
+<span style="color:blue">```basic 3.ds```</span> - Some very simple list with 1 entry on the same line (in-lined production)<br>
+<span style="color:blue">```basic 4.ds```</span>  - Some very simple list ending with a new line character<br>
 
 
 comments - testing how comments work 
