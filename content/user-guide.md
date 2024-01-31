@@ -7,7 +7,7 @@ usage: <span style="color:blue">```DescribeCompilerCLI help | -h```</span>
 
 Display help message
 
-<hr>
+<hr><br>
 usage: <span style="color:blue">```DescribeCompilerCLI parse-file PARSE_PATH RESULT_PATH [ template=(TEMPLATE_NAME|TEMPLATE_PATH) ] [ verbosity=<verb> | log-verbosity=<verb> ] [ artifacts=<verb> [artifacts-path=ARTIFACTS_PATH ]] [ logfile=LOG_PATH ]```</span>
 
 <span style="color:orange">template</span> - the name (inbuilt) or path (external) of the template set to use PARSE_PATH - the path of the file to parse<br>
@@ -18,7 +18,7 @@ usage: <span style="color:blue">```DescribeCompilerCLI parse-file PARSE_PATH RES
 <span style="color:orange">ARTIFACTS_PATH</span> - specify path of directory to store artifacts in<br>
 <span style="color:orange">LOG_PATH</span> - specify path of directory or file to output logs to<br>
 
-<hr>
+<hr><br>
 usage: <span style="color:blue">```DescribeCompilerCLI parse-folder PARSE_PATH RESULT_PATH [ template=(TEMPLATE_NAME|TEMPLATE_PATH) ] [ dsonly[=true|=false] ] [ toponly[=true|=false] ] [ verbosity=<verb> | log-verbosity=<verb> ] [ onerror=<verb> ] [ artifacts=<verb> [artifacts-path=ARTIFACTS_PATH ]] [ logfile=LOG_PATH ]```</span>
 
 <span style="color:orange">template</span> - the name (inbuild) or path (external) of the template set to use PARSE_PATH - the path of the file to parse<br> 
