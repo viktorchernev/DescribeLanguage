@@ -24,7 +24,7 @@ _Describe Basics (v0.6)_
 <span style="color:green">double characters - testing if characters that are a start of a multi-character terminal are correctly handled</span><br>
 <span style="color:blue">```double characters 1.ds```</span> - Some very simple list containing a hyphen "-", as it is a start character of a producer "->"<br> 
 <span style="color:blue">```double characters 2.ds```</span> - Some very simple list containing a forward slash "/", as it is a start character of a comment "//" or "/*"<br> 
-<span style="color:blue">```double characters 3.ds```</span>  Some very simple list containing a back slash "\", as it is a start character of escape sequences "\,"<br>
+<span style="color:blue">```double characters 3.ds```</span> - Some very simple list containing a back slash "\", as it is a start character of escape sequences "\,"<br>
 
 
 <span style="color:green">empty - the idea here is to test empty productions (without entries)</span><br>
