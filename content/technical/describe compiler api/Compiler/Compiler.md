@@ -17,7 +17,7 @@ The Describe Compiler API is a software library, containing the de-facto compile
 * [Properties](/DescribeDocumentation/technical/api/compiler/properties)
 * [LogHandlers](/DescribeDocumentation/technical/api/compiler/log-handlers)
 * [Settings](/DescribeDocumentation/technical/api/compiler/settings)
-* [Constructors](/DescribeDocumentation/technical/api/compiler/ctor)
+* [Constructors](/DescribeDocumentation/technical/api/compiler/ctors)
 * [Statistics](/DescribeDocumentation/technical/api/compiler/statistics)
 * [Verbosity Low](/DescribeDocumentation/technical/api/compiler/verbosity-low)
 * [Verbosity Medium](/DescribeDocumentation/technical/api/compiler/verbosity-medium)
