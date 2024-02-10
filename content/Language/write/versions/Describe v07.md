@@ -124,4 +124,4 @@ Text = {TextCharacter}+
 ```
 
 ### Links
-[Back](/DescribeDocumentation/language/v06)
+[Back](/DescribeDocumentation/language/home)
