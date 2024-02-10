@@ -1,16 +1,23 @@
 ---
 layout: page
-title: Grammar v0.9
-permalink: /technical/api/grammars/grammar-v09/
+title: Describe Official
+permalink: /language/v10/
 exclude: true
 ---
-_Describe 0.9 - Decorators_
+## Describe Official
 
+Describe version 1.0, codenamed Official is the first official version of the language. It introduced the "bi" delimiter mode and replace directives, as well as some new decorators. Also, the preprocessor for Describe 1.0 is much more complex then the ones for the previous test versions.
+
+The GOLD parser grammar is given next<br>
+Keep in mind that the precompiler plays a role as well, and this cannot be seen from the grammar file.<br><br>
+
+
+<span style="color:blue">_Describe 1.0 - Official_</span>
 ```
 ! Attributes
 "Name" = 'D#SCRIBE markup Language'
 "Author" = 'DemonOfReason'
-"Version" = '0.3'
+"Version" = '1.0'
 "About" = 'D#SCRIBE Language'
 "Character Mapping" = 'Unicode'
 "Case Sensitive" = False
@@ -20,10 +27,10 @@ _Describe 0.9 - Decorators_
 Comment Start = '/*'
 Comment End = '*/'
 Comment Line = '//'
-Link Start = '['
-Link End = ']'
-Decorator Start = '{'
-Decorator End = '}'
+Link Start = '[['
+Link End = ']]'
+Decorator Start = '{{'
+Decorator End = '}}'
 
 ! Symbols
 Hyphen = '-'
@@ -59,13 +66,34 @@ EscapeBSlash = '\\'
 Text = {TextCharacter}+
 
 
-! Producer
-<producer>
-    ::= Hyphen RightArrow
+! Compound
+! Preprocessor needs to doubles right arrow followed by a new line and preceded by hyphen "->\n" - "->>\n"
+! Preprocessor needs to escape single right arrows ">" - "\>"
+<producer> ::= Hyphen RightArrow RightArrow
+
+! Preprocessor needs to double comma followed by a new line ",\n" - ",,\n"
+! Preprocessor needs to escape single comas "," - "\,"
+<separator> ::= Separator Separator
+
+! Preprocessor needs to double semicolon followed by a new line ";\n" - ";;\n"
+! Preprocessor needs to escape single semicolons ";" - "\;"
+<terminator> ::= Terminator Terminator
+
+! Preprocessor needs to escape single left arrows "<" - "\<"
+<tagstart> ::= LeftArrow LeftArrow
+
+! Preprocessor needs to escape single right arrows ">" - "\>"
+<tagend> ::= RightArrow RightArrow
+
+! Preprocessor needs to escape single left square brackets "[" - "\["
+! Preprocessor needs to escape single right square brackets "]" - "\]"
+! Preprocessor needs to escape single left curly brackets "{" - "\{"
+! Preprocessor needs to escape single right curly brackets "}" - "\}"
+
+
 
 ! Tagging
-<tag>
-    ::= LeftArrow <text> RightArrow
+<tag> ::= <tagstart> <text> <tagend>
 
 <links>
     ::= Link Link
@@ -172,21 +200,21 @@ Text = {TextCharacter}+
     | <expression>
 
 <item-or-expression-list>
-    ::= <item> Separator <item>
-    | <item> Separator <expression>
+    ::= <item> <separator> <item>
+    | <item> <separator> <expression>
     | <expression> <item>
     | <expression> <expression>
     
-    | <item> Separator <item-or-expression-list>
+    | <item> <separator> <item-or-expression-list>
     | <expression> <item-or-expression-list>
 
     
     
 
 <expression>     
-    ::= <item> <producer> Terminator    
-    | <item> <producer> <item-or-expression> Terminator   
-    | <item> <producer> <item-or-expression-list> Terminator
+    ::= <item> <producer> <terminator>    
+    | <item> <producer> <item-or-expression> <terminator>   
+    | <item> <producer> <item-or-expression-list> <terminator>
     | <item> <producer> <item-or-expression>
     | <item> <producer> <item-or-expression-list>
 
@@ -197,4 +225,5 @@ Text = {TextCharacter}+
 <scripture>     
     ::= <expression>      
     | <expression-list>
+
 ```

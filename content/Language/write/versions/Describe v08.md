@@ -1,16 +1,23 @@
 ---
 layout: page
-title: Grammar v0.9
-permalink: /technical/api/grammars/grammar-v09/
+title: Describe Links
+permalink: /language/v08/
 exclude: true
 ---
-_Describe 0.9 - Decorators_
+## Describe Links
 
+Describe version 0.8, codenamed Links is the third test version of the language. It introduced links - ```[https://someurl.net/]```
+
+The GOLD parser grammar is given next<br>
+Keep in mind that the precompiler plays a role as well, and this cannot be seen from the grammar file.<br><br>
+
+
+<span style="color:blue">_Describe 0.8 - Links_</span>
 ```
 ! Attributes
 "Name" = 'D#SCRIBE markup Language'
 "Author" = 'DemonOfReason'
-"Version" = '0.3'
+"Version" = '0.8'
 "About" = 'D#SCRIBE Language'
 "Character Mapping" = 'Unicode'
 "Case Sensitive" = False
@@ -22,8 +29,6 @@ Comment End = '*/'
 Comment Line = '//'
 Link Start = '['
 Link End = ']'
-Decorator Start = '{'
-Decorator End = '}'
 
 ! Symbols
 Hyphen = '-'
@@ -36,8 +41,6 @@ Terminator = ';'
 !BSlash = '\'
 !LeftSquare = '['
 !RightSquare = ']'
-!LeftCurl = '{'
-!RightCurl = '}'
 
 ! Escaped symbols
 EscapeHyphen = '\-'
@@ -45,8 +48,6 @@ EscapeLeftArrow = '\<'
 EscapeRightArrow = '\>'
 EscapeLeftSquare = '\['
 EscapeRightSquare = '\]'
-EscapeLeftCurl = '\{'
-EscapeRightCurl = '\}'
 EscapeSeparator = '\,'
 EscapeTerminator = '\;'
 EscapeStar = '\*'
@@ -54,7 +55,7 @@ EscapeFSlash = '\/'
 EscapeBSlash = '\\'
 
 ! Text
-{SpecialCharacter} = ['{''}''['']''-''<''>'','';''*''/''\''\-''\<''\>''\,''\;''\*''\/''\\']
+{SpecialCharacter} = ['['']''-''<''>'','';''*''/''\''\-''\<''\>''\,''\;''\*''\/''\\']
 {TextCharacter} = {Printable} - {SpecialCharacter}
 Text = {TextCharacter}+
 
@@ -92,8 +93,6 @@ Text = {TextCharacter}+
     | EscapeBSlash
     | EscapeLeftSquare
     | EscapeRightSquare
-    | EscapeLeftCurl
-    | EscapeRightCurl
 
 <text-chunk-list>    
     ::= <text-chunk> <text-chunk>    
@@ -106,64 +105,17 @@ Text = {TextCharacter}+
 
 
 ! Item
-<item>       
+<item>    
     ::= <text>
-    | <text> <tag>
     | <text> Link
-    | <text> <links>
-    | <text> Decorator
-    | <text> <decorators>
-    
+    | <text> <tag>
     | <text> <tag> Link
-    | <text> Link <tag>
     | <text> <tag> <links>
+    | <text> Link <tag>
     | <text> <links> <tag>
 
-    | <text> <tag> Decorator
-    | <text> Decorator <tag>
-    | <text> <tag> <decorators>
-    | <text> <decorators> <tag>
+
     
-    | <text> Link Decorator
-    | <text> Decorator Link
-    | <text> <links> Decorator
-    | <text> Decorator <links>
-    
-    | <text> Link <decorators>
-    | <text> <decorators> Link
-    | <text> <links> <decorators>
-    | <text> <decorators> <links>
-
-    | <text> <tag> Link Decorator
-    | <text> <tag> <links> Decorator
-    | <text> <tag> Link <decorators>
-    | <text> <tag> <links> <decorators>
-    
-    | <text> Link <tag> Decorator
-    | <text> <links> <tag> Decorator
-    | <text> Link <tag> <decorators>
-    | <text> <links> <tag> <decorators>
-
-    | <text> Link Decorator <tag>
-    | <text> <links> Decorator <tag>
-    | <text> Link <decorators> <tag>
-    | <text> <links> <decorators> <tag>
-    
-    | <text> <tag> Decorator Link
-    | <text> <tag> Decorator <links>
-    | <text> <tag> <decorators> Link
-    | <text> <tag> <decorators> <links>
-
-    | <text> Decorator <tag> Link
-    | <text> Decorator <tag> <links>
-    | <text> <decorators> <tag> Link
-    | <text> <decorators> <tag> <links>
-
-    | <text> Decorator Link <tag>
-    | <text> Decorator <links> <tag>
-    | <text> <decorators> Link <tag>
-    | <text> <decorators> <links> <tag>
-
 
 
 ! Expressions and more

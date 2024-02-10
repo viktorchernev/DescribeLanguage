@@ -1,11 +1,18 @@
 ---
 layout: page
-title: Grammar v0.9
-permalink: /technical/api/grammars/grammar-v09/
+title: Describe Decorators
+permalink: /language/v09/
 exclude: true
 ---
-_Describe 0.9 - Decorators_
+## Describe Decorators
 
+Describe version 0.9, codenamed Decorators is the forth test version of the language. It introduced decorators - ```{color|tomato}{bold}```
+
+The GOLD parser grammar is given next<br>
+Keep in mind that the precompiler plays a role as well, and this cannot be seen from the grammar file.<br><br>
+
+
+<span style="color:blue">_Describe 0.9 - Decorators_</span>
 ```
 ! Attributes
 "Name" = 'D#SCRIBE markup Language'

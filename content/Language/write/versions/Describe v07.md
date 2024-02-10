@@ -1,11 +1,18 @@
 ---
 layout: page
-title: Grammar v0.7
-permalink: /technical/api/grammars/grammar-v07/
+title: Describe Tags
+permalink: /language/v07/
 exclude: true
 ---
-_Describe 0.7 - Tags_
+## Describe Tags
 
+Describe version 0.7, codenamed Tags is the second test version of the language. It introduced tags and tagging with ids in angle brackets - ```<tagid>```
+
+The GOLD parser grammar is given next<br>
+Keep in mind that the precompiler plays a role as well, and this cannot be seen from the grammar file.<br><br>
+
+
+<span style="color:blue">_Describe 0.7 - Tags_</span>
 ```
 ! Attributes
 "Name" = 'D#SCRIBE markup Language'

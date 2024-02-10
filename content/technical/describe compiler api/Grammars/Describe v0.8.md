@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Grammar v0.6
+title: Grammar v0.8
 permalink: /technical/api/grammars/grammar-v08/
 exclude: true
 ---

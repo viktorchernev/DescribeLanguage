@@ -10,5 +10,5 @@ _Bugs in Describe Compiler v0.9.4_
 * [CLI CORE - Operation not supported](/DescribeDocumentation/v094/bugs/bug-2)
 
 ### Unsolved:
-* [AWS - Lambda memory.md](/DescribeDocumentation/v094/bugs/todo-bug-1)
-* [Runaway group.md](/DescribeDocumentation/v094/bugs/todo-bug-2)
+* [AWS - Lambda memory](/DescribeDocumentation/v094/bugs/todo-bug-1)
+* [Runaway group](/DescribeDocumentation/v094/bugs/todo-bug-2)
