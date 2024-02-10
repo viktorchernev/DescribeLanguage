@@ -23,7 +23,6 @@ The replace directive is used to replace all occurances of some text with other 
 * <span style="color:orange">**_regex-replace_** ```regex-replace <"pattern"|"newText">``` *EXPERIMENTAL</span><br>
 The regex-replace directive is used to replace all occurances of some regular expression pattern with some text before parsing the source file. The quotes are optional.
 
-<br><br>
 <span style="color:blue">In the example below, we have a source file utilizing the verbosity directive to set parser log verbosity to high, and the namespace directive, indicating the current namespace under the dot notation addressing scheme:</span>
 ```
 directives -> 

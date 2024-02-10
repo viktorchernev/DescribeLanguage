@@ -12,7 +12,6 @@ Looking at the example 3 files below, we can observe that:<br>
  • root file contains one root element, which can be tagged with the id rnode, which stands for "root node"<br>
  • namespace directive is used to add to ids<br>
 
-<br><br>
 <span style="color:blue">_Example (file-path: ```Public\@public.ds```):_</span>
 ```
 directives ->
@@ -25,7 +24,6 @@ PUBLIC <rnode> ->
 	science <.science.rnode>;
 ```
 
-<br><br>
 <span style="color:blue">_file-path: ```Public\Culture\@culture.ds```:_</span>
 ```
 directives ->
@@ -39,7 +37,6 @@ culture <rnode>->
 	cuisine;
 ```
 
-<br><br>
 <span style="color:blue">_file-path: ```Public\Science\@science.ds```:_</span>
 ```
 directives ->

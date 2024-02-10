@@ -19,7 +19,7 @@ The current addressing scheme in Describe is called "dot notation". The idea her
 
 An older scheme exists, that is depricated and cannot be used. It was called "slash notation", and it is the idea that we can prefix tag ids with their filename or file-path, using forward slashes. It has number of issues and has been discontinued, but can be reimplemented in the future if the need arises.
 
- ### Markers 
+### Markers 
  
  Markers are some symbols that are used at the beginning of a tag id to mark the item, thus adding functionality. For example, a tag id to an encrypted entry can start with a hash symbol (aka octothorpe) - ```encrypted item <#someid>```
 

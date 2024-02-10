@@ -9,7 +9,6 @@ Links in describe are enclosed in square brackets. A link consists of an URL, or
 It is advisable to use URLs that start with a protocol name - ```http://``` or ```https://```.
 Some examples follow:
 
-<br><br>
 <span style="color:blue">_Simple links:_</span>
 ```
 famous websites ->

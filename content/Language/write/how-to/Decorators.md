@@ -54,7 +54,6 @@ The shorter decorator is a content-provider. It provides a shorter version of th
 The same as ```shorter``` but in reverse order. There are up to 5 levels available to the user, with ```shortest-1``` being the shortest or the most-shortened text and ```shortest-5``` being the least shortened.
 
 
-<br><br>
 <span style="color:blue">_Using decorators:_</span>
 ```
 types of documentaries ->
@@ -71,7 +70,6 @@ types of documentaries ->
 	Biological Engineering {color|#ad6};
 ```
 
-<br><br>
 <span style="color:blue">_Using decorators (added comments):_</span>
 ```
 //decorators example

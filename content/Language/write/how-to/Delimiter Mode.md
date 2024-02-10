@@ -17,7 +17,7 @@ Version 1.0 of the Describe language utilises the precompiler and the ```delimit
 <span style="color:blue">**_in "bi" mode brackets are doubled_**</span><br>
 ```<someid>``` is ```<<someid>>```<br>
 ```[http://someurl.net/]``` is ```[[http://someurl.net/]]```<br>
-```{color|red}``` is ```{{color|red}}```<br><br>
+```{color|red}``` is ```{% raw % }{{color|red}}{% endraw % }```<br><br>
 
 
 <span style="color:blue">**_Bi mode_** - Commas, production arrows and semicolons does not need to be escaped because they are at the end of the lines.</span><br>
@@ -41,7 +41,6 @@ unsorted <<rnode>> ->
 	personality types <<personalityTraits>>;
 ```
 
-<br><br>
 <span style="color:blue">**_Bi mode_** - One liner.</span><br>
 ```
 directives ->
