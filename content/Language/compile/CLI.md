@@ -10,6 +10,7 @@ The Describe Compiler CLI is a text-based app that provides a command line inter
 
 ```DescribeCompilerCLI help```<br>
 ```DescribeCompilerCLI -h```<br>
+
 <span style="color:orange">_help | -h_</span><br>
 
 The help command is used to display usage / help message
@@ -23,9 +24,11 @@ The help command is used to display usage / help message
 
 The parse-file command is used to parse a single file. First we specify the command, followed by the source file to be parsed and the output file path. Anything after that is optional.
 
-* <span style="color:blue">**_translator_**</span> - Either the desired output language or the name of the translator to be used.
+* <span style="color:blue">**_translator_**</span><br>
+Either the desired output language or the name of the translator to be used.
 
-* <span style="color:blue">**_verbosity_**</span> - The log verbosity of the app. Same as ```log-verbosity```. ```l``` or ```low``` for low verbosity, ```m``` or ```medium``` for medium verbosity or ```h``` or ```high``` for high verbosity. Low is default.
+* <span style="color:blue">**_verbosity_**</span><br>
+The log verbosity of the app. Same as ```log-verbosity```. ```l``` or ```low``` for low verbosity, ```m``` or ```medium``` for medium verbosity or ```h``` or ```high``` for high verbosity. Low is default.
 
 <!--
 * <span style="color:orange">**_artifacts - NOT IMPLEMENTED_**</span> - Whether to use artifacts. ```m``` or ```makeonly``` will only create new and overwrite existing artifacts, but will not consume them, ```t``` or ```takeonly``` will only consume but not create or update them, ```u``` or ```use``` will both use available or valid artifacts while updating invalid ones and creating new artifacts when not available, and ```n``` or ```no``` will ignore artifacts alltogether. Default is no.
@@ -33,7 +36,8 @@ The parse-file command is used to parse a single file. First we specify the comm
 * <span style="color:orange">**_ARTIFACTS_PATH - NOT IMPLEMENTED_**</span> - Specifies the path of directory to store artifacts in.
 -->
 
-* <span style="color:blue">**_logfile_**</span> - Specifies path of directory or file to output logs to. If not specified, logs will be outputted only to the console, which is the default.
+* <span style="color:blue">**_logfile_**</span><br>
+Specifies path of directory or file to output logs to. If not specified, logs will be outputted only to the console, which is the default.
 
 ### parse-folder
 
