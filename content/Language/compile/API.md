@@ -89,3 +89,8 @@ if (result != null)
 	File.WriteAllText(@"C:\result\path\output.json", result);
 }
 ```
+
+### Links
+[Describe Compilation](/DescribeDocumentation/language/compile)<br> 
+[Use the CLI version](/DescribeDocumentation/language/compile/cli)<br>
+[Use the AWS version](/DescribeDocumentation/language/compile/aws)

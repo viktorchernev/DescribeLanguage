@@ -86,3 +86,8 @@ function logPostResponse($response) {
 	echo "<br />";
 }
 ```
+
+### Links
+[Describe Compilation](/DescribeDocumentation/language/compile)<br> 
+[Use the API version](/DescribeDocumentation/language/compile/api)<br>
+[Use the CLI version](/DescribeDocumentation/language/compile/cli)

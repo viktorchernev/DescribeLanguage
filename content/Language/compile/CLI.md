@@ -57,6 +57,7 @@ The parse-folder command is used to parse a directory full of Describe source fi
 
 * <span style="color:blue">**_logfile_**</span> - Specifies path of directory or file to output logs to. If not specified, logs will be outputted only to the console, which is the default.
 
-<br><br>
-[**⮜ Describe Compilation**](/DescribeDocumentation/language/compile) • 
-[**Use the API version ➤**](/DescribeDocumentation/language/compile/api)
+### Links
+[Describe Compilation](/DescribeDocumentation/language/compile)<br> 
+[Use the API version](/DescribeDocumentation/language/compile/api)<br>
+[Use the AWS version](/DescribeDocumentation/language/compile/aws)
