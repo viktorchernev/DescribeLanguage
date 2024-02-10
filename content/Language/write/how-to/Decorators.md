@@ -4,9 +4,6 @@ title: Describe - Decorators
 permalink: /language/decorators/
 exclude: true
 ---
-
-## Describe - Decorators
-
 Decorators basically are some text enclosed in curly brackets - ```{``` and ```}```. Decorators are used to add different kind of data to items - weather it is additional text or instruction to change the color of the item or add a particular icon image. Decorators can either be simple ones, consisting of just a key, or complex ones, consisting of a key and a value, delimited by a pipe symbol ```|```. 
 
 A list of decorators and instructions for their use follows. However, in the Describe language grammar, a decorator is just some text in curly brackets. What a particular decorator will do is implemented in the particular translator, and if users are developing their own translators, they are free to implement their own decorators.
@@ -91,6 +88,7 @@ types of documentaries ->
 	Mechanical Engineering documentaries {color|#42F5E3}, //colored - hex
 	Biological Engineering {color|#ad6}; //colored - hex
 ```
-<br><br>
-[**_⮜ Prev_**](/DescribeDocumentation/language/links) •
-[**_Next ⮞_**](/DescribeDocumentation/language/tags)
+
+### Links
+[Next](/DescribeDocumentation/language/tags)<br>
+[Prev](/DescribeDocumentation/language/links)

@@ -51,6 +51,6 @@ solar system ->
 dwarf planets ->;
 ```
 
-<br><br>
-[**_⮜ Prev_**](/DescribeDocumentation/language/home) •
-[**_Next ⮞_**](/DescribeDocumentation/language/comments)
+### Links
+[Next](/DescribeDocumentation/language/comments)<br>
+[Prev](/DescribeDocumentation/language/home)

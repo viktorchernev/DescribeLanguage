@@ -4,9 +4,6 @@ title: Describe - Comments
 permalink: /language/comments/
 exclude: true
 ---
-
-## Describe - Comments
-
 Comments in describe are much like comments in C++ or C#, or other C type languages - we have single line comments, that start with two slashes ```//``` and end with a new line, and we also have the delimited type, starting with slash and a star - ```/*``` and ending with a star and a slash - ```*/```.
 
 <span style="color:blue">_Example:_</span>
@@ -34,6 +31,6 @@ solar system ->
 
 <span style="color:green">_Note - Nesting of comments is not supported, as in most major programming languages._</span>
 
-<br><br>
-[**_⮜ Prev_**](/DescribeDocumentation/language/lists) •
-[**_Next ⮞_**](/DescribeDocumentation/language/links)
+### Links
+[Next](/DescribeDocumentation/language/links)<br>
+[Prev](/DescribeDocumentation/language/lists)

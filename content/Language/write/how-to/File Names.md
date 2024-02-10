@@ -4,9 +4,6 @@ title: Describe - File names
 permalink: /language/file-names/
 exclude: true
 ---
-
-## Describe - File names
-
 Like other programming languages, Describe has file extensions associated with different files. Some file prefixes might also be utilised as well.
 
 
@@ -33,3 +30,7 @@ Also by convention, source files that are not ready to be compiled (aka draft fi
 
 * <span style="color:blue">**_#_** ```#someSource.ds```</span><br>
 hash symbol (aka octothorpe) might indicate that source file is encrypted.
+
+### Links
+[Next](/DescribeDocumentation/language/delimiter-mode)<br>
+[Prev](/DescribeDocumentation/language/slash-notation)

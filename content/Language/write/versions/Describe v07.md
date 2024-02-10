@@ -4,8 +4,6 @@ title: Describe Tags
 permalink: /language/v07/
 exclude: true
 ---
-## Describe Tags
-
 Describe version 0.7, codenamed Tags is the second test version of the language. It introduced tags and tagging with ids in angle brackets - ```<tagid>```
 
 The GOLD parser grammar is given next<br>
@@ -124,3 +122,6 @@ Text = {TextCharacter}+
     ::= <expression>      
     | <expression-list>
 ```
+
+### Links
+[Back](/DescribeDocumentation/language/v06)

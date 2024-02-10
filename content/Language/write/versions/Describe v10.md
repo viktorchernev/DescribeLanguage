@@ -4,8 +4,6 @@ title: Describe Official
 permalink: /language/v10/
 exclude: true
 ---
-## Describe Official
-
 Describe version 1.0, codenamed Official is the first official version of the language. It introduced the "bi" delimiter mode and replace directives, as well as some new decorators. Also, the preprocessor for Describe 1.0 is much more complex then the ones for the previous test versions.
 
 The GOLD parser grammar is given next<br>
@@ -227,3 +225,6 @@ Text = {TextCharacter}+
     | <expression-list>
 
 ```
+
+### Links
+[Back](/DescribeDocumentation/language/v09)

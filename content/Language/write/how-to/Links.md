@@ -4,9 +4,6 @@ title: Describe - Links
 permalink: /language/links/
 exclude: true
 ---
-
-## Describe - Links
-
 Links in describe are enclosed in square brackets. A link consists of an URL, or an URL and a title that follows the URL, with a pipe ```|``` symbol between the title and the URL. One entry can have zero, one or more links, and each of those links must be enclosed in square brackets of its own.
 
 It is advisable to use URLs that start with a protocol name - ```http://``` or ```https://```.
@@ -47,6 +44,6 @@ famous websites ->
 
 <span style="color:green">_Interesting fact - In the early stages of the Describe language development it was possible write two or more links in the same square brackets, divided by a comma, but this functionality has been scraped as an unnecessary complication._</span>
 
-<br><br>
-[**_⮜ Prev_**](/DescribeDocumentation/language/comments) •
-[**_Next ⮞_**](/DescribeDocumentation/language/decorators)
+### Links
+[Next](/DescribeDocumentation/language/decorators)<br>
+[Prev](/DescribeDocumentation/language/comments)

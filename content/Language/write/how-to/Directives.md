@@ -4,10 +4,6 @@ title: Describe - Directives
 permalink: /language/directives/
 exclude: true
 ---
-
-## Describe - Directives
-
-
 Directives are commands for the preprocessor that affect the preprocessing or the compilation process for the given source file. In Describe, directives are written as a list, titled "directives". Each directive is an entry in the list. The text of the entry is the name of the directive, and the tag of the entry is the value. The directives list, if present, must be the first list in the source file.
 
 A list of directives and instructions for their use follows:
@@ -44,6 +40,7 @@ unsorted <rnode> ->
 	World's Fastest Cars 2023 <fastestCars2023>,
 	personality types <personalityTraits>;
 ```
-<br><br>
-[**_⮜ Prev_**](/DescribeDocumentation/language/tagging) •
-[**_Next ⮞_**](/DescribeDocumentation/language/dot-notation)
+
+### Links
+[Next](/DescribeDocumentation/language/dot-notation)<br>
+[Prev](/DescribeDocumentation/language/tagging)

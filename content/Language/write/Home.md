@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Describe Language Home
+title: Describe Language - Home
 permalink: /language/home/
 exclude: true
 ---

@@ -4,10 +4,6 @@ title: Describe - Tagging
 permalink: /language/tagging/
 exclude: true
 ---
-
-## Describe - Tagging
-
-
 ### IDs
 Tag Ids are case sensitive, and should contain alphanumeric characters with letters of upper or lower case. It is not advisable to use special characters in ids. Good idea for creating ids is to either use random strings that are 3 to 8 characters long or camel cased / pascal cased descriptive names - just like variable names in many programming languages. It is advisable to use random strings for entries in the same file, and descriptive ids for entries in another files, where the descriptive id is the same as or hints of the file name.
 
@@ -27,6 +23,6 @@ An older scheme exists, that is depricated and cannot be used. It was called "sl
  
  Markers are some symbols that are used at the beginning of a tag id to mark the item, thus adding functionality. For example, a tag id to an encrypted entry can start with a hash symbol (aka octothorpe) - ```encrypted item <#someid>```
 
-
-[**_⮜ Prev_**](/DescribeDocumentation/language/tags) •
-[**_Next ⮞_**](/DescribeDocumentation/language/directives)
+### Links
+[Next](/DescribeDocumentation/language/directives)<br>
+[Prev](/DescribeDocumentation/language/tags)

@@ -4,8 +4,6 @@ title: Describe Decorators
 permalink: /language/v09/
 exclude: true
 ---
-## Describe Decorators
-
 Describe version 0.9, codenamed Decorators is the forth test version of the language. It introduced decorators - ```{color|tomato}{bold}```
 
 The GOLD parser grammar is given next<br>
@@ -205,3 +203,7 @@ Text = {TextCharacter}+
     ::= <expression>      
     | <expression-list>
 ```
+
+
+### Links
+[Back](/DescribeDocumentation/language/v08)

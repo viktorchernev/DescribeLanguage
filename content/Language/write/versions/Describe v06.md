@@ -4,8 +4,6 @@ title: Describe Basics
 permalink: /language/v06/
 exclude: true
 ---
-## Describe Basics
-
 Describe version 0.6, codenamed Basics is the first test version of the language. It introduced the language in simple lists with separators ```,```, terminators ```;``` and production arrows ```->```.
 
 The GOLD parser grammar is given next<br>
@@ -118,3 +116,6 @@ Text = {TextCharacter}+
 	::= <expression>      
 	| <expression-list>
 ```
+
+### Links
+[Back](/DescribeDocumentation/language/home)
