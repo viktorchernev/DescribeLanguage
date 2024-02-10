@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Describe Language
+title: Describe Language Home
 permalink: /language/home/
 exclude: true
 ---
-## Grammar Home
-
 Writing Describe code is very easy and intuitive - anyone can start right away, without much training whatsoever. We have a list of short articles to get you started - you can pick up a topic, or just click next:<br>
 
 [Lists](/DescribeDocumentation/language/lists)<br>
