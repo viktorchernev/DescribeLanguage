@@ -45,17 +45,23 @@ The parse-file command is used to parse a single file. First we specify the comm
 
 The parse-folder command is used to parse a directory full of Describe source files (.ds files). First we specify the command, followed by the source directory to be parsed and the output file path. Anything after that is optional.
 
-* <span style="color:blue">**_translator_**</span> - Either the desired output language or the name of the translator to be used.
+* <span style="color:blue">**_translator_**</span><br>
+Either the desired output language or the name of the translator to be used.
 
-* <span style="color:blue">**_dsonly_**</span> - Whether to omit files that are not Describe source files (.DS). ```true``` or ```false```. Default is true.
+* <span style="color:blue">**_dsonly_**</span><br>
+Whether to omit files that are not Describe source files (.DS). ```true``` or ```false```. Default is true.
 
-* <span style="color:blue">**_toponly_**</span> - Whether to parse files in child directories or not. ```true``` or ```false```. Default is false.
+* <span style="color:blue">**_toponly_**</span><br>
+Whether to parse files in child directories or not. ```true``` or ```false```. Default is false.
 
-* <span style="color:blue">**_onerror_**</span> - What to do when there is an error in source code. ```stop``` or ```ignore```. Default is stop.
+* <span style="color:blue">**_onerror_**</span><br>
+What to do when there is an error in source code. ```stop``` or ```ignore```. Default is stop.
 
-* <span style="color:blue">**_verbosity_**</span> - The log verbosity of the app. Same as ```log-verbosity```. ```l``` or ```low``` for low verbosity, ```m``` or ```medium``` for medium verbosity or ```h``` or ```high``` for high verbosity. Low is default.
+* <span style="color:blue">**_verbosity_**</span><br>
+The log verbosity of the app. Same as ```log-verbosity```. ```l``` or ```low``` for low verbosity, ```m``` or ```medium``` for medium verbosity or ```h``` or ```high``` for high verbosity. Low is default.
 
-* <span style="color:blue">**_logfile_**</span> - Specifies path of directory or file to output logs to. If not specified, logs will be outputted only to the console, which is the default.
+* <span style="color:blue">**_logfile_**</span><br>
+Specifies path of directory or file to output logs to. If not specified, logs will be outputted only to the console, which is the default.
 
 ### Links
 [Describe Compilation](/DescribeDocumentation/language/compile)<br> 
