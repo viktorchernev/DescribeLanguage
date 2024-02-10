@@ -4,7 +4,7 @@ title: Dot Notation
 permalink: /language/dot-notation/
 exclude: true
 ---
-## Dot Notation
+## Describe - Dot Notation
 
 The idea with the "dot notation" scheme is to use namespaces to form complex dot "." separated ids. Instead of writing long ids though, we can use the namespace directive to set the namespace for the current file, and it will then be added as prefix to every id that does not contain a dot or that starts with a dot. This is so because if we have a namespaced id, we need the ability to tell if it is a child namespace we are referring to and needs to be added to the current namespace - so we prefix it with a dot, like ```<.cars.rnode>```, or if it is a full path of its own ```<cars.rnode>``` e.g.
 

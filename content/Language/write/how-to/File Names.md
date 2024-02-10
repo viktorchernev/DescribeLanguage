@@ -5,7 +5,7 @@ permalink: /language/file-names/
 exclude: true
 ---
 
-## Directives
+## Describe - File names
 
 Like other programming languages, Describe has file extensions associated with different files. Some file prefixes might also be utilised as well.
 

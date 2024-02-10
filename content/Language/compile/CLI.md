@@ -4,8 +4,6 @@ title: Describe Compilation - CLI
 permalink: /language/compile/cli
 exclude: true
 ---
-## Describe Compilation - CLI
-
 The Describe Compiler CLI is a text-based app that provides a command line interface for the API compiler, so that users can compile Describe source files on the command line. The app is licensed under the [AGPL v3](https://www.gnu.org/licenses/agpl-3.0) public license.
 
 ### help

@@ -4,8 +4,6 @@ title: Describe Compilation - AWS
 permalink: /language/compile/aws
 exclude: true
 ---
-## Describe Compilation - AWS
-
 The Describe Compiler AWS is Amazon Web Services Lambda function project. It is built for hosting the Describe Compiler as a microservice, in the form of a lambda function. The project is licensed under the [AGPL v3](https://www.gnu.org/licenses/agpl-3.0) public license.
 
 Project is under development. Here is how we call it from PHP, it at the moment.

@@ -5,7 +5,7 @@ permalink: /language/directives/
 exclude: true
 ---
 
-## Directives
+## Describe - Directives
 
 
 Directives are commands for the preprocessor that affect the preprocessing or the compilation process for the given source file. In Describe, directives are written as a list, titled "directives". Each directive is an entry in the list. The text of the entry is the name of the directive, and the tag of the entry is the value. The directives list, if present, must be the first list in the source file.

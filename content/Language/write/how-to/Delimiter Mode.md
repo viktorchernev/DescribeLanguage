@@ -5,7 +5,7 @@ permalink: /language/delimiter-mode/
 exclude: true
 ---
 
-## Delimiter mode
+## Describe - Delimiter mode
 
 A main point in the development of the Describe language is to make the experience as seamless as possible for the user, and one of the main ways to achieve this is by eliminating the need to use escape sequences as much as possible. However, we need to escape angle brackets, because of tags ```<tagid>```, square brackets, because of links ```[http://someurl.net/]```, curly brackets because of decorators ```{color|red}``` commas and semicolons - ```,```, ```;```, and this thing, called a production arrow - ```->```. So how to avoid the need to escape those characters?
 
