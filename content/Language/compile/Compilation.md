@@ -9,4 +9,4 @@ Currently, there are three options for compiling Describe code - using the comma
 ### Links
 [Use the CLI version](/DescribeDocumentation/language/compile/cli)<br>
 [Use the API version](/DescribeDocumentation/language/compile/api)<br>
-[Use the microservice version](/DescribeDocumentation/language/compile/aws)
+[Use the AWS version](/DescribeDocumentation/language/compile/aws)
