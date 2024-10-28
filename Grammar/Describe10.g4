@@ -63,6 +63,7 @@ STAR						: '*' LINESPACE* ;
 
 ESCAPE_ESCAPE        		: '\\\\' LINESPACE* ;
 ESCAPE_HYPHEN      			: '\\-' LINESPACE* ;
+ESCAPE_TILDE				: '\\~' LINESPACE* ;
 ESCAPE_RIGHT_ARROW      	: '\\>' LINESPACE* ;
 ESCAPE_LEFT_ARROW      		: '\\<' LINESPACE* ;
 ESCAPE_RIGHT_SQUARE      	: '\\]' LINESPACE* ;
@@ -89,6 +90,7 @@ producer					: HYPHEN PRODUCTION_ARROW ;
 
 text_chunk					: ESCAPE_ESCAPE
 							| ESCAPE_HYPHEN
+							| ESCAPE_TILDE
 							| ESCAPE_RIGHT_ARROW
 							| ESCAPE_LEFT_ARROW
 							| ESCAPE_RIGHT_SQUARE
