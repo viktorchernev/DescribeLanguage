@@ -1,35 +1,36 @@
 /* Describe Markup Language
  * version 0.6 (Basics)
  * Created by DemonOfReason and ChatGPT
- * Finished on 16 June 2024 */
+ * Finished on 03 Aug 2024 */
 
 grammar Describe06;
 
 
 // Define lexer rules for white spaces. Linespace is the same but with new line - '\n'
 // ----------------------------------------------------------------------------------------------------------
-// ' ' 					: A space character.
-// '\r'					: A carriage return character (ASCII 13).
-// '\n'					: A newline character (ASCII 10).
-// '\t'					: A tab character (ASCII 9).
-// '\u000B'				: A vertical tab character (ASCII 11).
-// '\u000C'				: A form feed character (ASCII 12).
-// '\u0085'				: A next line (NEL) character (Unicode character U+0085).
-// '\u00A0'				: A non-breaking space (Unicode character U+00A0).
-// '\u1680'				: An ogham space mark (Unicode character U+1680).
-// '\u2000-\u200A'		: A range of en space to hair space (Unicode characters U+2000 to U+200A, inclusive).
-// '\u2028'				: A line separator (Unicode character U+2028).
-// '\u2029'				: A paragraph separator (Unicode character U+2029).
-// '\u202F'				: A narrow no-break space (Unicode character U+202F).
-// '\u205F'				: A medium mathematical space (Unicode character U+205F).
-// '\u3000'				: An ideographic space (Unicode character U+3000).
+// ' ' 						: A space character.
+// '\r'						: A carriage return character (ASCII 13).
+// '\n'						: A newline character (ASCII 10).
+// '\t'						: A tab character (ASCII 9).
+// '\u000B'					: A vertical tab character (ASCII 11).
+// '\u000C'					: A form feed character (ASCII 12).
+// '\u0085'					: A next line (NEL) character (Unicode character U+0085).
+// '\u00A0'					: A non-breaking space (Unicode character U+00A0).
+// '\u1680'					: An ogham space mark (Unicode character U+1680).
+// '\u2000-\u200A'			: A range of en space to hair space (Unicode characters U+2000 to U+200A, inclusive).
+// '\u2028'					: A line separator (Unicode character U+2028).
+// '\u2029'					: A paragraph separator (Unicode character U+2029).
+// '\u202F'					: A narrow no-break space (Unicode character U+202F).
+// '\u205F'					: A medium mathematical space (Unicode character U+205F).
+// '\u3000'					: An ideographic space (Unicode character U+3000).
 // ----------------------------------------------------------------------------------------------------------
 fragment WHITESPACE			: [ \r\t\u000B\u000C\u0085\u00A0\u1680\u2000-\u200A\u2028\u2029\u202F\u205F\u3000] ;
 fragment LINESPACE			: [ \r\n\t\u000B\u000C\u0085\u00A0\u1680\u2000-\u200A\u2028\u2029\u202F\u205F\u3000] ;
 
 
 // Define lexer rules for comments
-LINE_COMMENT       			: '// ' .*? ('\r'? '\n' LINESPACE* | EOF) -> skip ;
+PROTO_SLASHES				: '://' ;
+LINE_COMMENT       			: '//' .*? ('\r'? '\n' LINESPACE* | EOF) -> skip ;
 BLOCK_COMMENT       		: '/*' .*? ('*/' LINESPACE* | EOF) -> skip ;
 
 // Define lexer rules for other tokens
@@ -37,7 +38,7 @@ HYPHEN						: '-' ;
 RIGHT_ARROW             	: '>' LINESPACE* ;
 SEPARATOR            		: ',' LINESPACE* ;
 TERMINATOR           		: ';' LINESPACE* ;
-FORWARD_SLASHES             : '//' LINESPACE* ;
+COLON             			: ':' LINESPACE* ;
 FORWARD_SLASH               : '/' LINESPACE* ;
 STAR						: '*' LINESPACE* ;
 
@@ -46,12 +47,13 @@ ESCAPE_HYPHEN      			: '\\-' LINESPACE* ;
 ESCAPE_RIGHT_ARROW      	: '\\>' LINESPACE* ;
 ESCAPE_SEPARATOR     		: '\\,' LINESPACE* ;
 ESCAPE_TERMINATOR    		: '\\;' LINESPACE* ;
+ESCAPE_COLON    			: '\\:' LINESPACE* ;
 ESCAPE_LCOMMENT      		: '\\//' LINESPACE* ;
 ESCAPE_BCOMMENT      		: '\\/*' LINESPACE* ;
 ESCAPE               		: '\\' LINESPACE* ;
 
 // Define lexer rule for data
-fragment DATA_CHAR			: ~[\->,;*/\\] ;
+fragment DATA_CHAR			: ~[\->,:;*/\\] ;
 DATA                		: DATA_CHAR+ ;
 
 // Define parser rules
@@ -62,14 +64,16 @@ text_chunk					: ESCAPE_ESCAPE
 							| ESCAPE_RIGHT_ARROW
 							| ESCAPE_SEPARATOR
 							| ESCAPE_TERMINATOR
+							| ESCAPE_COLON
 							| ESCAPE_LCOMMENT
 							| ESCAPE_BCOMMENT
 							| ESCAPE
 							| HYPHEN
 							
 							| RIGHT_ARROW
-							| FORWARD_SLASHES
 							| FORWARD_SLASH
+							| PROTO_SLASHES
+							| COLON
 							| STAR
 							| DATA ;
 
