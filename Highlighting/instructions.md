@@ -1,8 +1,18 @@
-XML files for Notepad++ highlighting are present in this folder, and I will add such files for other editors, when available. Meanwhile, you can use the instructions below to set the highlighting in your favourite editor manually - it shouldn't be too difficult. You can use different colors if you like, of course.
+XML files for Notepad++ highlighting are present in this folder, and I will add such files for other editors, when available. Meanwhile, you can use the instructions below to set the highlighting in your favorite editor manually - it shouldn't be too difficult, given it even supports defining user languages like that. You can use different colors if you like, of course.
 
-* Color keywords dark blue. Keywords are commas "," semicolons ";" and production arrows "->" 
-* Color comments green and make italic. Allow comments anywhere and allow comments folding. Line comments start with two forward slashes "//" and end with a new line symbol "\n". Delimited comments start with a forward slash and a star "/\*" and end with a star and a forward slash "\*/"  
-* Color tags dark blue as well, and make bold. Tags are groups that start with lesser then symbol "<" and end with a greater then symbol ">"  
-* Color decorators purple or cyan or magenta. Decorators are groups that start with curly bracket "{" and end with a curly bracket "}"  
-* Color links red. Links start with square bracket "\[" and end with square bracket "\]"
-* Optionally, add one more group to color text in regular brackets in light-gray "(" and ")"
+However, such approach to highlighting is somewhat simplistic and will never work perfectly. It works well enough though, in the absence of proper highlighting plugins, this is the next best thing, and we don't have such plugins developed yet.
+
+You can use visual styles you like - we prefer - green for comments, red for links, gray or greens on green background or magenta for decorators, deep blue for operators, possibly on contrasting yellow background. The instructions are given below:  
+
+* Extensions to automatically apply language to are ".ds" - Describe source files and ".dr" - Describe draft files.
+* Fold code on "->" and ";"
+* Fold comments on "/*" and "*/"
+* Allow folding of comments - yes
+* Comment line - "//" and "\n"
+* Comment delimited - "/*" and "*/"
+* Operators - "->", "," and ";"
+* Delimiter - "://" and "." - Hack for escaping slashes in URLs, otherwise they are treated as comments
+* Delimiter - "{" and "}" - For decorators
+* Delimiter - "<." and ">" - For public tags that utilize namespaces
+* Delimiter - "<" and ">" - For tags
+* Delimiter - "[" and "]" - For links
